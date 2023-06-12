@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-dataentry"
+version = "0.1.0"
+description = ""
+authors = ["stanley144 <stanley@yourcounterpart.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_dataentry"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.8"
+streamlit = "^1.23.1"
+openai = "^0.27.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
